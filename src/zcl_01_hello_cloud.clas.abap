@@ -18,6 +18,8 @@ class zcl_01_hello_cloud implementation.
 
     out->write( 'Hello Cloud' ).
 
+    out->write( 'Super new Change' ).
+
   endmethod.
 
 endclass.
