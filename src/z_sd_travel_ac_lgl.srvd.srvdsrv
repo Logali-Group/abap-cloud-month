@@ -1,0 +1,10 @@
+@EndUserText.label: 'Travel'
+@ObjectModel: {
+   leadingEntity: {
+       name: 'Z_C_TRAVEL_AC_LGL'
+   }
+}
+define service Z_sd_travel_ac_lgl
+  provider contracts odata_v4_ui {
+  expose z_c_travel_ac_lgl as Travel;
+}

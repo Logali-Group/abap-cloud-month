@@ -1,0 +1,77 @@
+@Metadata.layer: #CORE
+@UI.headerInfo: {
+    typeName: 'Travel',
+    typeNamePlural: 'Travels',
+    title: {
+        type: #STANDARD,
+        value: 'TravelID'
+    },
+    description: {
+        type: #STANDARD,
+        value: 'TravelID'
+    }
+}
+annotate entity z_c_travel_ac_lgl with
+{
+  @UI.facet: [{ id: 'Travel',
+                purpose: #STANDARD,
+                type: #IDENTIFICATION_REFERENCE,
+                label: 'Travel',
+                position: 10 }]
+  @UI.hidden: true
+  TravelUUID;
+
+  @UI: { lineItem: [{ position: 10,
+                      importance: #HIGH }],
+         identification: [{ position: 10,
+                            label: 'Travel ID' }],
+         selectionField: [{ position: 10 }] }
+  TravelID;
+
+  @UI: { lineItem: [{ position: 20, importance: #HIGH }],
+         identification: [{ position: 20 }],
+         selectionField: [{ position: 20 }] }
+  AgencyID;
+
+  @UI: { lineItem: [{ position: 30, importance: #HIGH }],
+         identification: [{ position: 40 }],
+         selectionField: [{ position: 40 }] }
+  CustomerID;
+
+  @UI: { lineItem: [{ position: 40, importance: #HIGH }],
+         identification: [{ position: 40 }] }
+  BeginDate;
+
+  @UI: { lineItem: [{ position: 50, importance: #HIGH }],
+         identification: [{ position: 50 }] }
+  EndDate;
+
+
+  @UI: { lineItem: [{ position: 60, importance: #HIGH }],
+           identification: [{ position: 60 }] }
+  BookingFee;
+
+  @UI: { lineItem: [{ position: 70, importance: #HIGH }],
+         identification: [{ position: 70 }] }
+  TotalPrice;
+
+  @UI: { lineItem: [{ position: 70, importance: #HIGH }],
+         identification: [{ position: 70 }] }
+  Descpription;
+
+  @UI: { lineItem: [{ position: 80, importance: #HIGH }],
+         identification: [{ position: 80 }] }
+  OverallStatus;
+
+  @UI.hidden: true
+  LocalCreatedBy;
+  @UI.hidden: true
+  LocalCreatedAt;
+  @UI.hidden: true
+  LocalLastChangedBy;
+  @UI.hidden: true
+  LocalLastChangedAt;
+  @UI.hidden: true
+  LastChangedAt;
+
+}
