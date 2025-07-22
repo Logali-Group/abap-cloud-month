@@ -3,7 +3,6 @@ ABAP Cloud - Month 25.07
 
 Durante este mes, hemos explorado desde los fundamentos de la certificación hasta la creación de complejos modelos de datos para analítica. Ha sido un camino intenso pero increíblemente valioso. En este vídeo de cierre, no solo repasaremos los puntos clave, sino que también discutiré las lecciones más importantes que todo desarrollador ABAP debe tener en cuenta al adoptar este nuevo paradigma.
 
-✅ **EN ESTE VÍDEO DE CONCLUSIÓN:**
 * **Un viaje en retrospectiva:** Repasaremos todos los temas que cubrimos, desde la Certificación Oficial hasta los Application Jobs, el Background Processing Framework (bPF) y las Vistas CDS para SAC.
 * **Mis Lecciones Aprendidas:** Te compartiré mis conclusiones y los aprendizajes más importantes que he extraído durante esta inmersión profunda en ABAP Cloud.
 * **¿Cuál es el futuro del desarrollador ABAP?** Mis reflexiones sobre cómo debemos evolucionar nuestras habilidades.
@@ -53,11 +52,11 @@ Gracias por haber sido parte de esta aventura. ¡Tu participación, tus comentar
 
 💬 **¡AHORA TE TOCA A TI!**
 
-¿Cuál fue tu vídeo favorito de la serie? ¿Qué fue lo más valioso que aprendiste este mes? ¡Déjame tu comentario abajo! Me encantaría leer tu feedback.
+¿Cuál fue tu vídeo favorito de la serie? ¿Qué fue lo más valioso que aprendiste este mes? ¡Déjame tu comentario en nuestros canales! Me encantaría leer tu feedback.
 
 ---
 
-Si disfrutaste de esta serie y quieres seguir aprendiendo sobre el mundo de SAP, la mejor forma de apoyarme es con un "Me Gusta" en este vídeo y, por supuesto, ¡suscribiéndote al canal para no perderte lo que viene!
+Si disfrutaste de esta serie y quieres seguir aprendiendo sobre el mundo de SAP, la mejor forma de apoyarme es con un "Me Gusta" en los vídeos y, por supuesto, ¡suscribiéndote al canal de YouTube para no perderte lo que viene!
 
 ¡Hasta la próxima aventura!
 
