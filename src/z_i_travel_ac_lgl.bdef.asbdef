@@ -8,7 +8,7 @@ draft table zlgl_travel_d
 etag master LocalLastChangedBy
 lock master total etag LastChangedAt
 authorization master ( instance )
-//etag master <field_name>
+
 {
   create ( authorization : global );
   update;

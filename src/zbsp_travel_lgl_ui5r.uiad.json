@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Travel LGL"
+  },
+  "ui5AppDetails": {
+    "appId": "logaligroup.travel"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_C8F9909E0AE73674B030BC8B6DECD40A08C4A3DD_TM",
+    "semanticObject": "Travel",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_C8F9909E0AE73674B030BC8B6DECD40A08C4A3DD_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Travel LGL"
+      }
+    }
+  ]
+}

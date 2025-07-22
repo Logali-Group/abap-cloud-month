@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Business Logic",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZJCE_BUSINESS_LGL"
+  },
+  "parameters": {
+    "singleValueParameters": [
+      {
+        "name": "BUKRS",
+        "value": "1010"
+      }
+    ]
+  }
+}

@@ -5,11 +5,24 @@ class zcl_02_data_gen_ac_lgl definition
 
   public section.
     interfaces if_oo_adt_classrun.
+
+    "-------------------------------------------------------------------
+    " Method: IS_VALID_EMAIL
+    " Purpose: Validates the format of an email address.
+    " Importing:
+    "   IV_EMAIL - The email address to validate (type STRING)
+    " Returning:
+    "   RV_IS_VALID - ABAP_BOOL, true if the email is valid, false otherwise
+    "-------------------------------------------------------------------
+    methods is_valid_email
+      importing
+        value(iv_email) type string
+      returning
+        value(rv_is_valid) type abap_bool.
+
   protected section.
   private section.
 endclass.
-
-
 
 class zcl_02_data_gen_ac_lgl implementation.
 
@@ -46,6 +59,13 @@ class zcl_02_data_gen_ac_lgl implementation.
 
     out->write( |{ sy-dbcnt } rows added.| ).
 
+  endmethod.
+
+  method is_valid_email.
+    rv_is_valid = abap_false.
+    if iv_email cp '*@*.*' and iv_email ca '@' and iv_email ca '.'.
+      rv_is_valid = abap_true.
+    endif.
   endmethod.
 
 endclass.
